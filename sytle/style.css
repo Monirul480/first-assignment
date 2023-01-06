@@ -1,0 +1,126 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+/* banner section */
+.banner{
+  width: 100%;
+  height: 100vh;
+  background-image: url("../images/banner/banner3.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+div{
+  align-items: center;
+  justify-content: center;
+
+}
+.bannero-text{
+  text-align: end;
+  padding-top: 180px;
+  padding-right: 160px;
+  
+}
+.banner-title{
+  font-size: 60px;
+  font-weight: bold;
+}
+.banner-description{
+   font-size: 20px;
+   font-weight: 400;
+  
+}
+.banner-btn{
+    font-size: 20px;
+    padding: 15px 20px;
+    background-color: rgb(250, 247, 246);
+    color: rgb(49, 108, 227);
+    border: none;
+    border-radius: 5px;
+    margin-top: 22px;
+    
+}
+
+/* banner section */
+/* person section */
+.persone-contain{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+.person-image{
+  margin-right: 30px;
+  padding-right: 50px;
+}
+.person-details{
+  margin-top: 40px;
+  padding: 20px;
+  
+}
+.right{
+  margin-top: 10px;
+  color: rgb(127, 133, 137);
+  font-size: 18px;
+  list-style: inside;
+}
+.my-failures{
+  font-size: 40px;
+  
+}
+/* person section */
+
+.skllis{
+  height: 90vh;
+  width: 100%;
+  
+}
+.skllis{
+  text-align: center;
+  align-items: center;
+  padding: 20px;
+  margin-top: 30px;
+}
+.skill-box{
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.box{
+  margin: 20px 50px;
+  padding: 10px;
+}
+.skill-title{
+  font-weight: 800;
+  font-size: 25px;
+}
+.skill-des{
+  font-weight: 400;
+  font-size: 20px;
+  color: rgb(151, 157, 161);
+}
+
+.bland-mod{
+  width: 60%;
+  height: 12vh;
+  background-image: url("../images/watch.png"),linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);;
+  background-blend-mode: overlay;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  padding: 100px;
+  margin-left: 200px;
+  text-align: start;
+}
+.whatch-title{
+  color: white;
+  font-size: 35px;
+  font-weight: 800;
+}
+.whatch-call{
+  font-size: 18px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  color: #005FAC;
+}
